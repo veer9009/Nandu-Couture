@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nandu Couture | Designed to Be Uniquely You</title>
+  <meta name="description" content="Nandu Couture is a premium fashion designer portfolio by Nandini for custom bridal, traditional, saree, and South Indian outfits.">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" id="home">
+    <nav class="navbar">
+      <a href="#home" class="brand" aria-label="Nandu Couture home">
+        <span class="brand-monogram">NC</span>
+        <span class="brand-text">NANDU COUTURE</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#collections">Collections</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-reveal">
+      <!-- Replace this background image in CSS with Nandini's real fashion photo. -->
+      <div class="hero-content">
+        <p class="eyebrow">Premium Fashion Studio</p>
+        <h1>NANDU COUTURE</h1>
+        <h2>Designed to Be Uniquely You.</h2>
+        <p>Traditional and custom designs crafted with elegance, individuality and attention to detail.</p>
+        <div class="hero-actions">
+          <a href="#collections" class="button primary-button">Explore Collection</a>
+          <a href="#contact" class="button outline-button">Contact Nandini</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="collection-section page-section" id="collections">
+      <div class="section-heading section-reveal">
+        <p class="eyebrow">Signature Designs</p>
+        <h2>Featured Collection</h2>
+        <p>Explore bridal, saree, South Indian, Karnataka local and custom designs created for memorable occasions.</p>
+      </div>
+
+      <div class="category-filters section-reveal" aria-label="Collection filters">
+        <button class="filter-button active" type="button" data-filter="all">All</button>
+        <button class="filter-button" type="button" data-filter="bridal">Bridal</button>
+        <button class="filter-button" type="button" data-filter="traditional">Traditional</button>
+        <button class="filter-button" type="button" data-filter="karnataka">Karnataka Sarees</button>
+        <button class="filter-button" type="button" data-filter="south-indian">South Indian</button>
+        <button class="filter-button" type="button" data-filter="blouse">Blouse Designs</button>
+        <button class="filter-button" type="button" data-filter="custom">Custom Designs</button>
+        <button class="filter-button" type="button" data-filter="sketches">Fashion Sketches</button>
+      </div>
+
+      <div class="design-grid" id="designGrid"></div>
+    </section>
+
+    <section class="process-section page-section section-reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Creative Process</p>
+        <h2>From Sketch to Creation</h2>
+        <p>Every outfit begins with a personal idea, then moves through fabric, fit and finishing details.</p>
+      </div>
+
+      <div class="process-layout">
+        <article class="process-visual">
+          <!-- Replace with Nandu's original fashion sketch. -->
+          <img src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=900&q=80" alt="Fashion sketch placeholder">
+          <div>
+            <span>01</span>
+            <h3>Sketch</h3>
+            <p>Ideas are shaped through silhouettes, color notes and detailing.</p>
+          </div>
+        </article>
+
+        <article class="process-visual">
+          <!-- Replace with the completed outfit photo. -->
+          <img src="https://images.unsplash.com/photo-1633100533867-2ec15e9a3e1f?auto=format&fit=crop&w=900&q=80" alt="Completed South Indian traditional outfit placeholder">
+          <div>
+            <span>02</span>
+            <h3>Final Design</h3>
+            <p>The concept becomes a polished outfit tailored for the client.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="services-section page-section" id="services">
+      <div class="section-heading section-reveal">
+        <p class="eyebrow">What We Create</p>
+        <h2>Services</h2>
+        <p>Thoughtful design support for weddings, celebrations, portraits and personal wardrobes.</p>
+      </div>
+
+      <div class="service-grid">
+        <article class="service-card section-reveal">
+          <span class="service-icon">C</span>
+          <h3>Custom Fashion Design</h3>
+          <p>Personalized outfits made around your occasion, measurements and style story.</p>
+        </article>
+        <article class="service-card section-reveal">
+          <span class="service-icon">B</span>
+          <h3>Bridal Design</h3>
+          <p>Elegant bridal looks with graceful silhouettes, rich fabrics and refined detailing.</p>
+        </article>
+        <article class="service-card section-reveal">
+          <span class="service-icon">D</span>
+          <h3>Designer Blouses</h3>
+          <p>Modern and traditional blouse designs tailored to sarees, lehengas and events.</p>
+        </article>
+        <article class="service-card section-reveal">
+          <span class="service-icon">T</span>
+          <h3>Traditional Wear</h3>
+          <p>Festive sarees, anarkalis and ethnic outfits with a premium boutique finish.</p>
+        </article>
+        <article class="service-card section-reveal">
+          <span class="service-icon">F</span>
+          <h3>Fashion Illustration</h3>
+          <p>Sketches and visual concepts to preview the look before it is created.</p>
+        </article>
+        <article class="service-card section-reveal">
+          <span class="service-icon">P</span>
+          <h3>Personal Styling Consultation</h3>
+          <p>Guidance for fabric, colors, accessories and outfit direction for your occasion.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-section page-section" id="about">
+      <div class="about-layout section-reveal">
+        <div class="about-image">
+          <!-- Replace with Nandini's professional photo. -->
+          <img src="https://images.unsplash.com/photo-1633100533867-2ec15e9a3e1f?auto=format&fit=crop&w=900&q=80" alt="Designer Nandini placeholder portrait">
+        </div>
+        <div class="about-content">
+          <p class="eyebrow">About</p>
+          <h2>Meet the Designer</h2>
+          <p>Nandini is the owner and designer behind Nandu Couture. She focuses on elegant, personalized and traditional designs inspired by bridal wear, Indian sarees, South Indian styling and Karnataka local dress traditions.</p>
+          <ul>
+            <li>Custom fashion</li>
+            <li>Traditional wear</li>
+            <li>Bridal designs</li>
+            <li>Fashion illustration</li>
+            <li>Personalized styling</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="why-section page-section">
+      <div class="section-heading section-reveal">
+        <p class="eyebrow">Boutique Experience</p>
+        <h2>Why Choose Nandu Couture</h2>
+      </div>
+
+      <div class="why-grid">
+        <article class="why-card section-reveal">
+          <h3>Personalized Designs</h3>
+          <p>Every design is shaped around the wearer, not copied from a template.</p>
+        </article>
+        <article class="why-card section-reveal">
+          <h3>Attention to Detail</h3>
+          <p>Finishes, trims and styling choices are considered carefully.</p>
+        </article>
+        <article class="why-card section-reveal">
+          <h3>Elegant Craftsmanship</h3>
+          <p>A refined fashion approach with graceful fabric and silhouette choices.</p>
+        </article>
+        <article class="why-card section-reveal">
+          <h3>Designs for Every Occasion</h3>
+          <p>From intimate functions to grand celebrations, each look feels intentional.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="gallery-section page-section">
+      <div class="section-heading section-reveal">
+        <p class="eyebrow">Visual Diary</p>
+        <h2>Fashion Gallery</h2>
+        <p>An Instagram-style preview grid ready for Nandini's real work.</p>
+      </div>
+
+      <div class="gallery-grid section-reveal" id="galleryGrid">
+        <!-- Replace these image URLs with real gallery photos later. -->
+        <button type="button" class="gallery-item"><img src="https://images.unsplash.com/photo-1633100533867-2ec15e9a3e1f?auto=format&fit=crop&w=700&q=80" alt="North Karnataka traditional dress placeholder"></button>
+        <button type="button" class="gallery-item"><img src="https://images.unsplash.com/photo-1614940685083-c5409b57da6e?auto=format&fit=crop&w=700&q=80" alt="Indian saree placeholder"></button>
+        <button type="button" class="gallery-item"><img src="https://images.unsplash.com/photo-1551854716-8b811be39e7e?auto=format&fit=crop&w=700&q=80" alt="South Indian bridal saree placeholder"></button>
+        <button type="button" class="gallery-item"><img src="https://images.unsplash.com/photo-1583391733956-6c78276477e2?auto=format&fit=crop&w=700&q=80" alt="Traditional silk saree placeholder"></button>
+        <button type="button" class="gallery-item"><img src="https://images.unsplash.com/photo-1617019114583-affb34d1b3cd?auto=format&fit=crop&w=700&q=80" alt="Traditional festive wear placeholder"></button>
+        <button type="button" class="gallery-item"><img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=700&q=80" alt="Bridal lehenga placeholder"></button>
+      </div>
+    </section>
+
+    <section class="testimonials-section page-section">
+      <div class="section-heading section-reveal">
+        <p class="eyebrow">Client Words</p>
+        <h2>Testimonials</h2>
+        <p>Sample content below. Replace these with real client testimonials later.</p>
+      </div>
+
+      <div class="testimonial-grid">
+        <!-- Sample testimonial content. Replace with real testimonials later. -->
+        <article class="testimonial-card section-reveal">
+          <p>"The outfit felt personal, elegant and perfect for my event."</p>
+          <span>- Sample Client</span>
+        </article>
+        <!-- Sample testimonial content. Replace with real testimonials later. -->
+        <article class="testimonial-card section-reveal">
+          <p>"Nandini understood the look I wanted and made it feel beautifully refined."</p>
+          <span>- Sample Client</span>
+        </article>
+        <!-- Sample testimonial content. Replace with real testimonials later. -->
+        <article class="testimonial-card section-reveal">
+          <p>"The detailing and fit made the whole design feel premium."</p>
+          <span>- Sample Client</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section page-section" id="contact">
+      <div class="contact-layout section-reveal">
+        <div class="contact-intro">
+          <p class="eyebrow">Enquiry</p>
+          <h2>Start Your Custom Design</h2>
+          <p>Share a few details about your occasion and outfit idea. The form opens WhatsApp with your enquiry message for Nandini.</p>
+          <div class="contact-details">
+            <p><strong>Owner:</strong> Nandini</p>
+            <p><strong>Phone:</strong> +91 7019528608</p>
+            <p><strong>Location:</strong> Hagaribommanahalli, Vijayanagara District, Karnataka</p>
+          </div>
+        </div>
+
+        <form class="contact-form" id="enquiryForm" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-row">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-row">
+            <label for="occasion">Occasion</label>
+            <input type="text" id="occasion" name="occasion" required>
+          </div>
+          <div class="form-row">
+            <label for="dressType">Dress Type</label>
+            <select id="dressType" name="dressType" required>
+              <option value="">Select dress type</option>
+              <option>Bridal Lehenga</option>
+              <option>Saree</option>
+              <option>Designer Blouse</option>
+              <option>Ilkal Saree</option>
+              <option>Mysore Silk Saree</option>
+              <option>South Indian Half Saree</option>
+              <option>Anarkali</option>
+              <option>Custom Outfit</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="budget">Budget Range</label>
+            <select id="budget" name="budget" required>
+              <option value="">Select budget</option>
+              <option>Under Rs. 10,000</option>
+              <option>Rs. 10,000 - Rs. 25,000</option>
+              <option>Rs. 25,000 - Rs. 50,000</option>
+              <option>Above Rs. 50,000</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="eventDate">Event Date</label>
+            <input type="date" id="eventDate" name="eventDate" required>
+          </div>
+          <div class="form-row full-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <p class="form-status" id="formStatus" aria-live="polite"></p>
+          <button type="submit" class="button primary-button">Send Enquiry</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <h2>NANDU COUTURE</h2>
+      <p>Designed to Be Uniquely You.</p>
+      <p>Owner: Nandini</p>
+      <p>Hagaribommanahalli, Vijayanagara District, Karnataka</p>
+    </div>
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#collections">Collections</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="social-links">
+      <a href="#" aria-label="Instagram placeholder">Instagram</a>
+      <a href="https://wa.me/917019528608" target="_blank" rel="noopener" aria-label="WhatsApp">WhatsApp</a>
+      <a href="mailto:hello@nanducouture.com">Email</a>
+    </div>
+    <p class="copyright">&copy; Nandu Couture. All Rights Reserved.</p>
+  </footer>
+
+  <a class="floating-whatsapp" id="floatingWhatsApp" href="#" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WhatsApp</a>
+
+  <div class="modal" id="designModal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-content">
+      <button class="modal-close" type="button" data-close-modal aria-label="Close design details">x</button>
+      <img id="modalImage" src="" alt="">
+      <div class="modal-details">
+        <p class="eyebrow" id="modalCategory"></p>
+        <h2 id="modalTitle"></h2>
+        <p><strong>Fabric:</strong> <span id="modalFabric"></span></p>
+        <p id="modalDescription"></p>
+        <h3>Design Highlights</h3>
+        <ul id="modalHighlights"></ul>
+        <a class="button primary-button" id="modalWhatsApp" href="#" target="_blank" rel="noopener">Interested in a Similar Design?</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button type="button" class="lightbox-close" aria-label="Close gallery preview">x</button>
+    <img src="" alt="Large gallery preview">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
