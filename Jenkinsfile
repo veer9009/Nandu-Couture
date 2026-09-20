@@ -13,5 +13,12 @@ pipeline {
                 sh 'docker build -t nandu-couture:${BUILD_NUMBER} .'
             }
         }
+
+        stage('Deploy') {
+            steps {
+                sh 'docker rm -f nandu-couture || true'
+                sh 'docker run -d --name nandu-couture -p 80:80 nandu-couture:${BUILD_NUMBER}'
+            }
+        }
     }
 }
