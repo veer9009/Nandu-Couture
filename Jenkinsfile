@@ -7,5 +7,11 @@ pipeline {
                 checkout scm
             }
         }
+
+        stage('Build Docker Image') {
+            steps {
+                sh 'docker build -t nandu-couture:${BUILD_NUMBER} .'
+            }
+        }
     }
 }
