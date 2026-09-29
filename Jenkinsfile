@@ -17,7 +17,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 sh 'docker rm -f nandu-couture || true'
-                sh 'docker run -d --name nandu-couture -p 80:80 nandu-couture:${BUILD_NUMBER}'
+                sh 'docker run -d --restart unless-stopped --name nandu-couture -p 80:80 nandu-couture:${BUILD_NUMBER}'
             }
         }
 
